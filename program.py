@@ -427,5 +427,4 @@ file_training, file_validasi, file_tes, data_input, mean, std = konversi_npz(fil
 machine_learning(file_training, file_validasi, file_tes, file, data_awal, data_input, mean, std)
 # /C.
 
-# Mnutup file log
 file.close()
