@@ -1,5 +1,5 @@
 pandas
-numpy
 tensorflow
 sklearn
+numpy>=1.21.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
 werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
